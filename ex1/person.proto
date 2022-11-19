@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Person {
+  string first = 1;
+  repeated string middles = 2;
+  string last = 3;
+}
